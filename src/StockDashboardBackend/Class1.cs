@@ -4,5 +4,6 @@ namespace StockDashboardBackend
 {
     public class Class1
     {
+
     }
 }
