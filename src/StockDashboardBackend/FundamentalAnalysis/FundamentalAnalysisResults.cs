@@ -2,7 +2,7 @@
 
 namespace StockDashboardBackend
 {
-    public static class FundamentalAnalysis
+    public static class FundamentalAnalysisResults
     {
         
     }
