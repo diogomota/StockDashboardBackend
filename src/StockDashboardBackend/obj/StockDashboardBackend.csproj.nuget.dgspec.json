@@ -14,7 +14,7 @@
         "outputPath": "/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/diogo/.nuget/NuGet/NuGet.Config"
+          "/home/diogo/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -39,6 +39,10 @@
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [

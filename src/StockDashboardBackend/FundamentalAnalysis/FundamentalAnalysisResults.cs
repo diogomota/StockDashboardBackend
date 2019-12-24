@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace StockDashboardBackend
+namespace StockDashboardBackend.FundamentalAnalysis
 {
 
     // Class with the final object that is serialized and passed as json to the frontend
-    // (i.e: dto for Fundamental analysis data)
+    // (i.e: defacto dto for Fundamental analysis data)
     public class FundamentalAnalysisResults
     {
         public double SharePrice {get;}
@@ -21,18 +21,18 @@ namespace StockDashboardBackend
 
         public double GrahamSharePrice {get;}
 
-        public FundamentalAnalysisResults(double _shareP, double _threeMonthGrowth,
-                                            double _rota, double _roe,
-                                            double _debtToEquity, double _currentRatio, 
-                                            double _grahamSharePrice)
+        public FundamentalAnalysisResults(double shareP, double threeMonthGrowth,
+                                            double rota, double roe,
+                                            double debtToEquity, double currentRatio, 
+                                            double grahamSharePrice)
         {
-            this.SharePrice = _shareP;
-            this.ThreeMonthGrowth = _threeMonthGrowth;
-            this.ROTA = _rota;
-            this.ROTA = _roe;
-            this.DebtToEquity = _debtToEquity;
-            this.CurrentRatio = _currentRatio;
-            this.GrahamSharePrice = _grahamSharePrice;
+            this.SharePrice = shareP;
+            this.ThreeMonthGrowth = threeMonthGrowth;
+            this.ROTA = rota;
+            this.ROTA = roe;
+            this.DebtToEquity = debtToEquity;
+            this.CurrentRatio = currentRatio;
+            this.GrahamSharePrice = grahamSharePrice;
         }
     }
 }
