@@ -17,15 +17,25 @@
         <e p="StockDashboardBackend" t="IncludeRecursive">
           <e p="Class1.cs" t="Include" />
           <e p="Common" t="Include">
+            <e p="HttpHandler.cs" t="Include" />
             <e p="RequestPlan.cs" t="Include" />
-            <e p="Services" t="Include" />
+            <e p="Services" t="Include">
+              <e p="Config.cs" t="Include" />
+              <e p="RequestHandler.cs" t="Include" />
+            </e>
           </e>
           <e p="FundamentalAnalysis" t="Include">
+            <e p="DataProcessing" t="Include">
+              <e p="Financials.cs" t="Include" />
+              <e p="GrahamPrice.cs" t="Include" />
+              <e p="PeriodGrowth.cs" t="Include" />
+              <e p="SharePrice.cs" t="Include" />
+            </e>
             <e p="FundamentalAnalysisResults.cs" t="Include" />
-            <e p="HttpHandlerFundamentalAnalysis.cs" t="Include" />
           </e>
           <e p="StockDashboardBackend.csproj" t="IncludeRecursive" />
           <e p="bin" t="ExcludeRecursive" />
+          <e p="config.json" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netstandard2.1" t="Include">
@@ -39,10 +49,21 @@
         <e p="StockDashboardBackendTests" t="IncludeRecursive">
           <e p="Common" t="Include">
             <e p="RequestPlanTests.cs" t="Include" />
+            <e p="Services" t="Include">
+              <e p="ConfigTests.cs" t="Include" />
+            </e>
+          </e>
+          <e p="FundamentalAnalysisTests" t="Include">
+            <e p="DataProcessing" t="Include">
+              <e p="FinancialsTests.cs" t="Include" />
+              <e p="PeriodGrowthTests.cs" t="Include" />
+              <e p="SharePriceTests.cs" t="Include" />
+            </e>
           </e>
           <e p="StockDashboardBackendTests.csproj" t="IncludeRecursive" />
           <e p="UnitTest1.cs" t="Include" />
           <e p="bin" t="ExcludeRecursive" />
+          <e p="config.json" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netcoreapp3.1" t="Include">

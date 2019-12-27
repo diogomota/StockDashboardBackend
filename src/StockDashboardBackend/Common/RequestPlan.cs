@@ -14,7 +14,7 @@ namespace StockDashboardBackend.Common
         public IReadOnlyDictionary<string,string> RequestArguments { get; }
 
         public string RequestUrl { get; private set; }
-        
+
         public RequestPlan(string endpoint, IReadOnlyDictionary<string, string> arguments)
         {
             EndPoint = endpoint.TrimEnd('/');

@@ -4,7 +4,7 @@ namespace StockDashboardBackend.FundamentalAnalysis
 {
 
     // Class with the final object that is serialized and passed as json to the frontend
-    // (i.e: defacto dto for Fundamental analysis data)
+    // (i.e: dto for Fundamental analysis data)
     public class FundamentalAnalysisResults
     {
         public double SharePrice {get;}
