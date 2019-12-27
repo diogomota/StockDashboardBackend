@@ -7,24 +7,24 @@ namespace StockDashboardBackend.FundamentalAnalysis
     // (i.e: dto for Fundamental analysis data)
     public class FundamentalAnalysisResults
     {
-        public double SharePrice {get;}
+        public string SharePrice {get;}
 
-        public double ThreeMonthGrowth {get;}
+        public string ThreeMonthGrowth {get;}
 
-        public double ROTA {get;}
+        public string ROTA {get;}
 
-        public double ROE {get;}
+        public string ROE {get;}
 
-        public double DebtToEquity {get;}
+        public string DebtToEquity {get;}
 
-        public double CurrentRatio {get;}
+        public string CurrentRatio {get;}
 
-        public double GrahamSharePrice {get;}
+        public string GrahamSharePrice {get;}
 
-        public FundamentalAnalysisResults(double shareP, double threeMonthGrowth,
-                                            double rota, double roe,
-                                            double debtToEquity, double currentRatio, 
-                                            double grahamSharePrice)
+        public FundamentalAnalysisResults(string shareP, string threeMonthGrowth,
+                                            string rota, string roe,
+                                            string debtToEquity, string currentRatio, 
+                                            string grahamSharePrice)
         {
             this.SharePrice = shareP;
             this.ThreeMonthGrowth = threeMonthGrowth;

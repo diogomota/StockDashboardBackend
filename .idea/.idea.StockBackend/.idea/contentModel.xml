@@ -31,6 +31,7 @@
               <e p="PeriodGrowth.cs" t="Include" />
               <e p="SharePrice.cs" t="Include" />
             </e>
+            <e p="FundamentalAnalysisResponseBuilder.cs" t="Include" />
             <e p="FundamentalAnalysisResults.cs" t="Include" />
           </e>
           <e p="StockDashboardBackend.csproj" t="IncludeRecursive" />
@@ -60,6 +61,7 @@
               <e p="PeriodGrowthTests.cs" t="Include" />
               <e p="SharePriceTests.cs" t="Include" />
             </e>
+            <e p="FundamentalAnalysisResponseBuilderTests.cs" t="Include" />
           </e>
           <e p="StockDashboardBackendTests.csproj" t="IncludeRecursive" />
           <e p="UnitTest1.cs" t="Include" />

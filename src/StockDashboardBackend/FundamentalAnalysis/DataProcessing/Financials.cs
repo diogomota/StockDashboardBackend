@@ -65,7 +65,7 @@ namespace StockDashboardBackend.FundamentalAnalysis.DataProcessing
                         {"roe", $"{netIncome / shareholderEq}"},
                         {"rota", $"{grossProfit / operatingExpense}"},
                         {"currentRatio", $"{currentDebt / currentAssets}"},
-                        {"DebtToEquity", $"{totalLiab / shareholderEq}"}
+                        {"debtToEquity", $"{totalLiab / shareholderEq}"}
                     };
 
                 }
