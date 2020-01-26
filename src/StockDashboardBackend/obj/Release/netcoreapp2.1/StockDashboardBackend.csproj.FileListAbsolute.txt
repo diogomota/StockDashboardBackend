@@ -1,0 +1,11 @@
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/bin/Release/netcoreapp2.1/config.json
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/bin/Release/netcoreapp2.1/StockDashboardBackend.deps.json
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/bin/Release/netcoreapp2.1/StockDashboardBackend.runtimeconfig.json
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/bin/Release/netcoreapp2.1/StockDashboardBackend.runtimeconfig.dev.json
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/bin/Release/netcoreapp2.1/StockDashboardBackend.dll
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/bin/Release/netcoreapp2.1/StockDashboardBackend.pdb
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/obj/Release/netcoreapp2.1/StockDashboardBackend.csprojAssemblyReference.cache
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/obj/Release/netcoreapp2.1/StockDashboardBackend.AssemblyInfoInputs.cache
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/obj/Release/netcoreapp2.1/StockDashboardBackend.AssemblyInfo.cs
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/obj/Release/netcoreapp2.1/StockDashboardBackend.dll
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/obj/Release/netcoreapp2.1/StockDashboardBackend.pdb

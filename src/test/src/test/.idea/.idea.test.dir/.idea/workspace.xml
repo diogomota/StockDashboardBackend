@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="acd24a07-d228-4b3c-abeb-463d4ed91495" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/.idea.StockBackend/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/.idea.StockBackend/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/.idea.StockBackend/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/.idea.StockBackend/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../StockBackend.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../StockBackend.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../StockDashboardBackend/FundamentalAnalysis/FundamentalAnalysisResponseBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../StockDashboardBackend/FundamentalAnalysis/FundamentalAnalysisResponseBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../StockDashboardBackend/bin/Debug/netstandard2.1/StockDashboardBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../StockDashboardBackend/bin/Debug/netstandard2.1/StockDashboardBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../StockDashboardBackend/bin/Debug/netstandard2.1/StockDashboardBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../StockDashboardBackend/bin/Debug/netstandard2.1/StockDashboardBackend.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Blog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Functions.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1WJOUhxzXZCIfYFKBURKHkW83XH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acd24a07-d228-4b3c-abeb-463d4ed91495" name="Default Changelist" comment="" />
+      <created>1578864248942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578864248942</updated>
+      <workItem from="1578864250525" duration="1453000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+</project>

@@ -6,14 +6,17 @@
     "projectPath": "/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/StockDashboardBackend.csproj",
     "outputPath": "/home/diogo/code/StockDashboard/StockDashboardBackend/src/StockDashboardBackend/obj/",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
-      "netstandard2.1"
+      "netcoreapp2.1"
     ],
     "sources": {
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
-      "netstandard2.1": {
+      "netcoreapp2.1": {
         "projectReferences": {}
       }
     },
@@ -24,11 +27,17 @@
     }
   },
   "frameworks": {
-    "netstandard2.1": {
+    "netcoreapp2.1": {
       "dependencies": {
         "Microsoft.Extensions.Http": {
           "target": "Package",
           "version": "[3.1.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
         },
         "System.Text.Json": {
           "target": "Package",
@@ -45,12 +54,7 @@
       ],
       "assetTargetFallback": true,
       "warn": true,
-      "frameworkReferences": {
-        "NETStandard.Library": {
-          "privateAssets": "all"
-        }
-      },
-      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
     }
   }
 }

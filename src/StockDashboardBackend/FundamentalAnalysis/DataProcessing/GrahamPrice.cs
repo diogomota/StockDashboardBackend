@@ -21,8 +21,13 @@ namespace StockDashboardBackend.FundamentalAnalysis.DataProcessing
         /// <param name="client"></param>
         /// <param name="growthRateOverride">(in %) i.e: 3 = 3%</param>
         /// <returns></returns>
-        public static async Task<string> Get(string ticker, HttpClient client,double? growthRateOverride=3)
+        public static async Task<string> Get(string ticker, HttpClient client,double? growthRateOverride=3,string endpoint=null,string apiKey=null)
         {
+            //Override api settings if they are passed from lambda
+            if(!string.IsNullOrEmpty(apiKey)){_config.Key=apiKey;}
+            if(!string.IsNullOrEmpty(endpoint)){_config.BaseEndpoint=endpoint;}
+
+            
             string request = BuildUrl(ticker);
             
             HttpHandler handler = new HttpHandler(client,request);

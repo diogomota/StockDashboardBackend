@@ -19,8 +19,13 @@ namespace StockDashboardBackend.FundamentalAnalysis.DataProcessing
         /// <param name="client"></param>
         /// <param name="MonthRange"></param>
         /// <returns></returns>
-        public static async Task<string> Get(string ticker, HttpClient client, int monthRange = 6)
+        public static async Task<string> Get(string ticker, HttpClient client, int monthRange = 6,string endpoint=null,string apiKey=null)
         {
+            //Override api settings if they are passed from lambda
+            if(!string.IsNullOrEmpty(apiKey)){_config.Key=apiKey;}
+            if(!string.IsNullOrEmpty(endpoint)){_config.BaseEndpoint=endpoint;}
+
+            
             string request = BuildUrl(ticker, monthRange);
             
             HttpHandler handler = new HttpHandler(client,request);

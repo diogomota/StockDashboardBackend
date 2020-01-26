@@ -1354,7 +1354,7 @@
       },
       "StockDashboardBackend/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Microsoft.Extensions.Http": "3.1.0",
           "System.Text.Json": "4.7.0"
@@ -4956,7 +4956,8 @@
     ]
   },
   "packageFolders": {
-    "/home/diogo/.nuget/packages/": {}
+    "/home/diogo/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4967,6 +4968,9 @@
       "packagesPath": "/home/diogo/.nuget/packages/",
       "outputPath": "/home/diogo/code/StockDashboard/StockDashboardBackend/tests/StockDashboardBackendTests/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/home/diogo/.config/NuGet/NuGet.Config"
       ],
@@ -5026,7 +5030,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
       }
     }
   }

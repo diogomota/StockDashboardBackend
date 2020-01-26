@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F939D55F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockDashboardBackendTests", "tests\StockDashboardBackendTests\StockDashboardBackendTests.csproj", "{34C1D26C-65F9-438A-A3BA-C1D742DA72E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSStockDashboardCore", "src\AWSStockDashboardCore\AWSStockDashboardCore.csproj", "{A261ECB3-47AC-4DA3-A661-EA417E003852}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,9 +50,22 @@ Global
 		{34C1D26C-65F9-438A-A3BA-C1D742DA72E5}.Release|x64.Build.0 = Release|Any CPU
 		{34C1D26C-65F9-438A-A3BA-C1D742DA72E5}.Release|x86.ActiveCfg = Release|Any CPU
 		{34C1D26C-65F9-438A-A3BA-C1D742DA72E5}.Release|x86.Build.0 = Release|Any CPU
+		{A261ECB3-47AC-4DA3-A661-EA417E003852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A261ECB3-47AC-4DA3-A661-EA417E003852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A261ECB3-47AC-4DA3-A661-EA417E003852}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A261ECB3-47AC-4DA3-A661-EA417E003852}.Debug|x64.Build.0 = Debug|Any CPU
+		{A261ECB3-47AC-4DA3-A661-EA417E003852}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A261ECB3-47AC-4DA3-A661-EA417E003852}.Debug|x86.Build.0 = Debug|Any CPU
+		{A261ECB3-47AC-4DA3-A661-EA417E003852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A261ECB3-47AC-4DA3-A661-EA417E003852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A261ECB3-47AC-4DA3-A661-EA417E003852}.Release|x64.ActiveCfg = Release|Any CPU
+		{A261ECB3-47AC-4DA3-A661-EA417E003852}.Release|x64.Build.0 = Release|Any CPU
+		{A261ECB3-47AC-4DA3-A661-EA417E003852}.Release|x86.ActiveCfg = Release|Any CPU
+		{A261ECB3-47AC-4DA3-A661-EA417E003852}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8405EA04-39E7-4F06-9D86-9C1E38DEBE08} = {08BADBA1-3AF0-4223-A394-6899080D989F}
 		{34C1D26C-65F9-438A-A3BA-C1D742DA72E5} = {F939D55F-0C0D-4A94-81BE-E6674E292160}
+		{A261ECB3-47AC-4DA3-A661-EA417E003852} = {08BADBA1-3AF0-4223-A394-6899080D989F}
 	EndGlobalSection
 EndGlobal

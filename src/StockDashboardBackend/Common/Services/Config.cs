@@ -9,11 +9,12 @@ namespace StockDashboardBackend.Common.Services
     /// </summary>
     public class Config
     {
-        public string BaseEndpoint { get;}
-        public string Key { get; }
+        public string BaseEndpoint { get; set; }
+        public string Key { get; set; }
         
         public Config()
         {
+            //Prod credentials are fetched from aws and will not leave that location
             string path = Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory.ToString(),
                 "config.json");
             var contents = File.ReadAllText(path);

@@ -1,0 +1,60 @@
+{
+	"AWSTemplateFormatVersion" : "2010-09-09",
+	"Transform" : "AWS::Serverless-2016-10-31",
+	"Description" : "An AWS Serverless Application.",
+
+	"Resources" : {
+
+		"GetFundamentalAnalysis" : {
+			"Type" : "AWS::Serverless::Function",
+			"Properties": {
+				"Handler": "AWSStockDashboardCore::AWSStockDashboardCore.Functions::GetFundamentalAnalysis",
+				"Runtime": "dotnetcore2.1",
+				"CodeUri": "",
+				"MemorySize": 256,
+				"Timeout": 30,
+				"Role": null,
+				"Policies": [ "AWSLambdaBasicExecutionRole" ],
+				"Events": {
+					"RootGet": {
+						"Type": "Api",
+						"Properties": {
+							"Path": "/FundamentalAnalysis",
+							"Method": "GET"
+						}
+					}
+				}
+			}
+		},
+		"TestFunc" : {
+        			"Type" : "AWS::Serverless::Function",
+        			"Properties": {
+        				"Handler": "AWSStockDashboardCore::AWSStockDashboardCore.Functions::TestFunc",
+        				"Runtime": "dotnetcore2.1",
+        				"CodeUri": "",
+        				"MemorySize": 256,
+        				"Timeout": 30,
+        				"Role": null,
+        				"Policies": [ "AWSLambdaBasicExecutionRole" ],
+        				"Events": {
+        					"RootGet": {
+        						"Type": "Api",
+        						"Properties": {
+        							"Path": "/testFunc",
+        							"Method": "GET"
+        						}
+        					}
+        				}
+        			}
+        		}
+		
+
+	}//,add outra entry aqui com novo function name
+
+	"Outputs" : {
+		"ApiURL" : {
+			"Description" : "API endpoint URL for Prod environment",
+			"Value" : { "Fn::Sub" : "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/" }
+		}
+	}
+}

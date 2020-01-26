@@ -1,4 +1,5 @@
 using System.Net.Http;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using StockDashboardBackend.Common.Services;
 
@@ -8,8 +9,12 @@ namespace StockDashboardBackend.FundamentalAnalysis.DataProcessing
     {
         private static Config _config = new Config();
         
-        public static async Task<string> Get(string ticker,HttpClient client)
+        public static async Task<string> Get(string ticker,HttpClient client,string endpoint=null,string apiKey=null)
         {
+            //Override api settings if they are passed from lambda
+            if(!string.IsNullOrEmpty(apiKey)){_config.Key=apiKey;}
+            if(!string.IsNullOrEmpty(endpoint)){_config.BaseEndpoint=endpoint;}
+            
             string request = BuildUrl(ticker);
             
             HttpHandler handler = new HttpHandler(client, request);

@@ -14,6 +14,21 @@
       <e p="StockBackend.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="src" t="Include">
+        <e p="AWSStockDashboardCore" t="IncludeRecursive">
+          <e p="AWSStockDashboardCore.csproj" t="IncludeRecursive" />
+          <e p="Function.cs" t="Include" />
+          <e p="Readme.md" t="Include" />
+          <e p="aws-lambda-tools-defaults.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="AWSStockDashboardCore.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="serverless.template" t="Include" />
+        </e>
         <e p="StockDashboardBackend" t="IncludeRecursive">
           <e p="Class1.cs" t="Include" />
           <e p="Common" t="Include">
@@ -39,7 +54,7 @@
           <e p="config.json" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
-              <e p="netstandard2.1" t="Include">
+              <e p="netcoreapp2.1" t="Include">
                 <e p="StockDashboardBackend.AssemblyInfo.cs" t="Include" />
               </e>
             </e>

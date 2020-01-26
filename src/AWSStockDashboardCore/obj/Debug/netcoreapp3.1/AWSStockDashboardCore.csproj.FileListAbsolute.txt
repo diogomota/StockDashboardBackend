@@ -1,0 +1,14 @@
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/bin/Debug/netcoreapp3.1/config.json
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/bin/Debug/netcoreapp3.1/AWSStockDashboardCore.deps.json
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/bin/Debug/netcoreapp3.1/AWSStockDashboardCore.runtimeconfig.json
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/bin/Debug/netcoreapp3.1/AWSStockDashboardCore.runtimeconfig.dev.json
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/bin/Debug/netcoreapp3.1/AWSStockDashboardCore.dll
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/bin/Debug/netcoreapp3.1/AWSStockDashboardCore.pdb
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/bin/Debug/netcoreapp3.1/StockDashboardBackend.dll
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/bin/Debug/netcoreapp3.1/StockDashboardBackend.pdb
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/obj/Debug/netcoreapp3.1/AWSStockDashboardCore.csprojAssemblyReference.cache
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/obj/Debug/netcoreapp3.1/AWSStockDashboardCore.AssemblyInfoInputs.cache
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/obj/Debug/netcoreapp3.1/AWSStockDashboardCore.AssemblyInfo.cs
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/obj/Debug/netcoreapp3.1/AWSStockDashboardCore.csproj.CopyComplete
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/obj/Debug/netcoreapp3.1/AWSStockDashboardCore.dll
+/home/diogo/code/StockDashboard/StockDashboardBackend/src/AWSStockDashboardCore/obj/Debug/netcoreapp3.1/AWSStockDashboardCore.pdb
